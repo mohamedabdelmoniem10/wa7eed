@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta name="language" content="ar" />
+    <meta http-equiv="x-ua-compatible" content="text/html" charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="The Description of This Page Goes Right Here and its !Important"
+    />
+    <meta
+      name="keywords"
+      content="keywords,goes,here,for,this,web,site,its,!important,and,keep,it,dynamic"
+    />
+    <title>OSSO</title>
+    <!-- Other Meta Tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="copyright" content="Sitename Goes Here" />
+    <link rel="shortcut icon" type="image/png" href="../../img/fevicon.png" />
+    <!-- Required CSS Files -->
+    <link
+      href="../../css/fontawsome.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link href="../../css/tornado-rtl.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="quiz row no-guuter row-reverse">
+      <header class="header">
+        <h3 class="heading">محرر الاختبارات السريعة</h3>
+        <a href="/dist/" class="back far fa-arrow-left"> رجوع </a>
+      </header>
+      <div class="container-fluid">
+        <div class="row">
+          <aside class="sidebar col-3 page-head">
+            <from class="form-ui quiz__settings">
+              <h1>إعداد الاختبار السريع</h1>
+
+              <h4>صورة الاختبار</h4>
+              <div
+                class="advanced-uploader fas fa-images"
+                data-text="اضغط هنا لرفع صورة الاختبار"
+                data-size="hd"
+              >
+                <input type="file" />
+              </div>
+              <div class="quiz__name">
+                <label for="name">اسم الاختبار</label>
+                <input type="text" />
+                <span class="hint fal fa-info-circle"
+                  >يجب الا يقل اسم الاختبار عن ثلاثة أحرف</span
+                >
+              </div>
+              <div class="quiz__select">
+                <label class="mb5">اختر المرحلة</label>
+                <select>
+                  <option value="">الثانوية</option>
+                </select>
+              </div>
+              <div class="quiz__select">
+                <label class="mb5">الصف</label>
+                <select>
+                  <option value="">الثاني الثانوي</option>
+                </select>
+              </div>
+              <div class="quiz__select">
+                <label class="mb5">الفصل</label>
+                <select>
+                  <option value="">Sec-A</option>
+                </select>
+              </div>
+              <div class="quiz__select">
+                <label class="mb5">المادة</label>
+                <select>
+                  <option value="">دراسات اجتماعية</option>
+                </select>
+              </div>
+              <div class="quiz__duration">
+                <label class="mb5">مدة الاختبار</label>
+                <input type="number" />
+                <span class="hint fal fa-info-circle">اكتب الوقت بالدقيقة</span>
+              </div>
+              <button class="submit btn blue-bg" type="submit">حفظ</button>
+            </from>
+          </aside>
+          <main class="col-9 text-center">
+            <h2 class="quiz__heading">
+              أملئ اعداد الاختبار أولا ثم قم بوضع الاسئلة
+            </h2>
+            <div class="quiz__types">
+              <div class="quiz__type primary fas fa-pen-alt">أكمل الإجابة</div>
+              <div class="quiz__type success fas fa-check-double">
+                إختر الإجابة الصحيحة
+              </div>
+              <div class="quiz__type purple fas fa-scroll">سؤال مقالى</div>
+              <div class="quiz__type blue fas fa-signature">ارسم الاجابة</div>
+              <div class="quiz__type pink fas fa-expand-arrows-alt">توصيل</div>
+              <div class="quiz__type darkblue fas fa-chart-bar">تصويت</div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="../../js/tornado.min.js"></script>
+  </body>
+</html>
